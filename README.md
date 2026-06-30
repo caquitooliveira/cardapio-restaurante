@@ -1,11 +1,10 @@
 # 🍽️ Cardápio Restaurante
-## 🔗 Projeto Online
-
-https://cardapio-restaurante-vert.vercel.app/
 
 Aplicação web desenvolvida com **Next.js**, **React** e **CSS Modules**.
 
-O sistema permite visualizar os pratos do restaurante, pesquisar em tempo real e filtrar os produtos por categoria, oferecendo uma interface moderna, organizada e responsiva.
+## 🔗 Projeto Online
+
+https://cardapio-restaurante-vert.vercel.app/
 
 ---
 
@@ -26,52 +25,39 @@ O sistema permite visualizar os pratos do restaurante, pesquisar em tempo real e
 - 📱 Layout responsivo
 - 🖼️ Cards com imagens dos pratos
 - 💰 Exibição de descrição e preço
-- 🎨 Interface moderna
 
 ---
 
-## 📸 Preview
+## 📱 QR Code
 
-> Em breve
+Escaneie o QR Code abaixo para acessar a aplicação.
+
+<img width="50" height="50" alt="frame" src="https://github.com/user-attachments/assets/b3449f8b-aa65-4b19-84d9-0de46de391cd" />
 
 ---
 
 ## ▶️ Como executar
 
-Clone o projeto:
-
 ```bash
 git clone https://github.com/caquitooliveira/cardapio-restaurante.git
 ```
-
-Entre na pasta:
 
 ```bash
 cd cardapio-restaurante
 ```
 
-Instale as dependências:
-
 ```bash
 npm install
 ```
 
-Execute o projeto:
-
 ```bash
 npm run dev
-```
-
-A aplicação ficará disponível em:
-
-```
-http://localhost:3000
 ```
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Caio Oliveira**.
+**Caio Oliveira**
 
-Projeto desenvolvido para fins de estudo e prática com Next.js e React.
+<img width="641" height="8861" alt="cardapio-restaurante-vert vercel app_" src="https://github.com/user-attachments/assets/67765aef-13e0-4bbc-a0c2-d8794bd5450c" />
