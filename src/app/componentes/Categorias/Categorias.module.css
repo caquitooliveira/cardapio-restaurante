@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 18px;
+
+  border: 1px solid #d9dde3;
+  border-radius: 6px;
+
+  background-color: #fff;
+
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: .3s;
+}
+
+.container button:hover {
+  background-color: #daa520;
+  color: #fff;
+}
+
+.ativo {
+  background-color: #daa520 !important;
+  color: #fff;
+}
+
+@media (max-width: 425px) {
+
+  .container {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container button {
+    width: 100%;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,142 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.subtitulo {
+  font-size: 20px;
+  margin: 50px 0 20px;
+  border-left: 5px solid #2e7d32;
+  padding-left: 12px;
+  color: #333;
+}
+
+.banner{
+  height: 500px;
+  background-image: url('/banner.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner_conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.banner_conteudo h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner_conteudo p {
+  font-size: 20px;
+  margin-top: 15px;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.campo_pesquisa input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.campo_pesquisa input:focus {
+  border-color: #daa520;
+}
+
+.campo_pesquisa{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 16px;
+  margin: 40px 0;
+  border: 1px solid #d9dde3;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.campo_pesquisa img{
+  opacity: 0.5;
+}
+
+.sem_resultado{
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.sem_resultado h3{
+  font-size: 28px;
+  color: #fe0202;
+  margin-bottom: 10px;
+}
+
+.sem_resultado p{
+  color: #ff0000;
+  font-size: 16px;
+}
+
+@media (max-width: 768px){
+
+  .banner{
+    height: 350px;
+  }
+  .banner_conteudo h1{
+    font-size: 42px;
+  }
+  .banner_conteudo p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .titulo{
+    font-size: 28px;
+  }
+  .container{
+    padding: 20px;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  .banner {
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner_conteudo h1 {
+    font-size: 32px;
+  }
+
+  .banner_conteudo p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  .campo_pesquisa {
+    padding: 12px;
+  }
+
+}
+
