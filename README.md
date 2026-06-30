@@ -1,4 +1,7 @@
 # 🍽️ Cardápio Restaurante
+## 🔗 Projeto Online
+
+https://cardapio-restaurante-vert.vercel.app/
 
 Aplicação web desenvolvida com **Next.js**, **React** e **CSS Modules**.
 
